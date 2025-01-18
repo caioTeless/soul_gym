@@ -1,0 +1,26 @@
+.content {
+    margin: 40px;
+    height: calc(100vh - 80px);
+    border: 1px solid var(--default-border);
+    width: 100%;
+    z-index: 999;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+}
+
+.filters {
+    flex: 0 0 15%;
+    border: 1px solid var(--default-border);
+    padding: 20px;
+}
+
+.table-content {
+    margin-top: 20px;
+    border: 1px solid var(--default-border);
+    box-sizing: border-box;
+    overflow-y: auto;
+    height: 80%;
+    padding: 20px;
+}

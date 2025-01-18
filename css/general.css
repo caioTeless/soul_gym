@@ -1,6 +1,7 @@
 :root {
     --bg-sidebar: #0D2026;
     --color-fff: #fff;
+    --default-border: rgb(228, 221, 221);
 }
 
 body {
@@ -70,7 +71,8 @@ ul {
     font-size: 2.5rem;
 }
 
-.settings img {
-    max-width: 50px;
-    max-height: 50px;
+.layout-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
 }
